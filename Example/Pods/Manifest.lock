@@ -1,0 +1,16 @@
+PODS:
+  - HQQTextView (0.1.0)
+
+DEPENDENCIES:
+  - HQQTextView (from `../`)
+
+EXTERNAL SOURCES:
+  HQQTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HQQTextView: cf1f6777f3d671343916d41f82c4504b8920cece
+
+PODFILE CHECKSUM: 7f05d0668d76afdc48f3d8e504d90f18f05b0921
+
+COCOAPODS: 1.2.0

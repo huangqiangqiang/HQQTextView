@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473882B7660F500A62E6E4F5FA45D603 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C9995960A5B7A7B95A9D432C86DE10D0 /* ReplaceMe.m */; };
+		5D0421B6A4EBBFBE7D67CC47CD738628 /* HQQTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C0ACBA1D470C459C6628D4BCC9EEE5 /* HQQTextView-dummy.m */; };
+		638AAEBC511E8D9EA972565520C60973 /* Pods-HQQTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E353168DD95565DFDDB6E6A522376F3 /* Pods-HQQTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77EA86947E70371E3EC05B99226D7E97 /* Pods-HQQTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5424706BCF8C8E7CFE2D04797C235821 /* Pods-HQQTextView_Tests-dummy.m */; };
+		A4C43BA722DB4317D6865370F0F96925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7638AADDB5B136BF61C2C85287F3CAD /* HQQTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9CDEE4E51F150E33762257A150ED51 /* HQQTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78935E92D1641B023C4B17BEC34009C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6D45C46D735C8ED533E42BD1B0F10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4D05B563399F04041B5DF398D09005;
+			remoteInfo = HQQTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F5AD45A0BF09F389543EB5C871D57 /* Pods-HQQTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1C3DECCB4F2D4FB1AA004309AB45886B /* Pods-HQQTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HQQTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		2B9CDEE4E51F150E33762257A150ED51 /* HQQTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQTextView-umbrella.h"; sourceTree = "<group>"; };
+		52B5F67A6DEA41997A7353352D92069F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5424706BCF8C8E7CFE2D04797C235821 /* Pods-HQQTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HQQTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		55C3E25BA9B86F0585772920FC8CB58B /* Pods-HQQTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQQTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E353168DD95565DFDDB6E6A522376F3 /* Pods-HQQTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HQQTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		890DC95D53D171F31CB896A6A95FED34 /* HQQTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQTextView-prefix.pch"; sourceTree = "<group>"; };
+		90F0DB6C67522DE349E82689C76FB58C /* Pods-HQQTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQQTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B7364279B1DF5D1FF4D359F81B330D6 /* Pods-HQQTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		BBC3D0256A621A34FA4C51F22C666C0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0601BA025025EAE17A5E30CB3A257A0 /* Pods-HQQTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C1278027AB83E722AF5AA69B784D776D /* Pods_HQQTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HQQTextView_Tests.framework; path = "Pods-HQQTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C285B800B8E185C8AA14625304C74D75 /* Pods-HQQTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9995960A5B7A7B95A9D432C86DE10D0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D285CC842D74538D95570A898A8CCBC2 /* HQQTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQQTextView.xcconfig; sourceTree = "<group>"; };
+		E2343E6BFF1F7015E64AB7AC3747A121 /* HQQTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HQQTextView.framework; path = HQQTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C0ACBA1D470C459C6628D4BCC9EEE5 /* HQQTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQQTextView-dummy.m"; sourceTree = "<group>"; };
+		EEBDA5871D2888532664091454D26317 /* HQQTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HQQTextView.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5004F3441ABA524E6846C65368892F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78935E92D1641B023C4B17BEC34009C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4E0B9603D1C18E6C79591F01396449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C43BA722DB4317D6865370F0F96925 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2256FFB3966C7E43129178D5A915DB5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBDA5871D2888532664091454D26317 /* HQQTextView.modulemap */,
+				D285CC842D74538D95570A898A8CCBC2 /* HQQTextView.xcconfig */,
+				E9C0ACBA1D470C459C6628D4BCC9EEE5 /* HQQTextView-dummy.m */,
+				890DC95D53D171F31CB896A6A95FED34 /* HQQTextView-prefix.pch */,
+				2B9CDEE4E51F150E33762257A150ED51 /* HQQTextView-umbrella.h */,
+				52B5F67A6DEA41997A7353352D92069F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HQQTextView";
+			sourceTree = "<group>";
+		};
+		47B9F32B3C6F5A325F9A55D8791C4FD9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E55749E9159340731C9A53924C3282A /* HQQTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6EEC9397B127A948ADBA7140E494DE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2343E6BFF1F7015E64AB7AC3747A121 /* HQQTextView.framework */,
+				C1278027AB83E722AF5AA69B784D776D /* Pods_HQQTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78FD97717209711F448A88F154344684 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9995960A5B7A7B95A9D432C86DE10D0 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				47B9F32B3C6F5A325F9A55D8791C4FD9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6EEC9397B127A948ADBA7140E494DE6A /* Products */,
+				CDD87B032D934FD3F05036AA73161FE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89A9D2593844224A932D1E7C3E4CE00A /* HQQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				78FD97717209711F448A88F154344684 /* Classes */,
+			);
+			name = HQQTextView;
+			path = HQQTextView;
+			sourceTree = "<group>";
+		};
+		8E55749E9159340731C9A53924C3282A /* HQQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				89A9D2593844224A932D1E7C3E4CE00A /* HQQTextView */,
+				2256FFB3966C7E43129178D5A915DB5D /* Support Files */,
+			);
+			name = HQQTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3BEEA712F6EADAE375CDA32AE6FA205 /* Pods-HQQTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC3D0256A621A34FA4C51F22C666C0A /* Info.plist */,
+				1C3DECCB4F2D4FB1AA004309AB45886B /* Pods-HQQTextView_Tests.modulemap */,
+				90F0DB6C67522DE349E82689C76FB58C /* Pods-HQQTextView_Tests-acknowledgements.markdown */,
+				55C3E25BA9B86F0585772920FC8CB58B /* Pods-HQQTextView_Tests-acknowledgements.plist */,
+				5424706BCF8C8E7CFE2D04797C235821 /* Pods-HQQTextView_Tests-dummy.m */,
+				003F5AD45A0BF09F389543EB5C871D57 /* Pods-HQQTextView_Tests-frameworks.sh */,
+				9B7364279B1DF5D1FF4D359F81B330D6 /* Pods-HQQTextView_Tests-resources.sh */,
+				7E353168DD95565DFDDB6E6A522376F3 /* Pods-HQQTextView_Tests-umbrella.h */,
+				C285B800B8E185C8AA14625304C74D75 /* Pods-HQQTextView_Tests.debug.xcconfig */,
+				C0601BA025025EAE17A5E30CB3A257A0 /* Pods-HQQTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HQQTextView_Tests";
+			path = "Target Support Files/Pods-HQQTextView_Tests";
+			sourceTree = "<group>";
+		};
+		CDD87B032D934FD3F05036AA73161FE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEEA712F6EADAE375CDA32AE6FA205 /* Pods-HQQTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		900BF7C3841C297D9981A6646A040F0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7638AADDB5B136BF61C2C85287F3CAD /* HQQTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E79F0CE63CFC8080B68108EFF60A9B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638AAEBC511E8D9EA972565520C60973 /* Pods-HQQTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E896DA0A8E86E08E847D5CDECDA1B945 /* Pods-HQQTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10879B555B46890C7095D35B7E4BF164 /* Build configuration list for PBXNativeTarget "Pods-HQQTextView_Tests" */;
+			buildPhases = (
+				E170E3EC9A6323C667A437155A01BF7D /* Sources */,
+				8A4E0B9603D1C18E6C79591F01396449 /* Frameworks */,
+				9E79F0CE63CFC8080B68108EFF60A9B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37A3979E8499F5F602072A58A06364D /* PBXTargetDependency */,
+			);
+			name = "Pods-HQQTextView_Tests";
+			productName = "Pods-HQQTextView_Tests";
+			productReference = C1278027AB83E722AF5AA69B784D776D /* Pods_HQQTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF4D05B563399F04041B5DF398D09005 /* HQQTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBBCCD8F94FCABB9A7F3F530E8F9AD9 /* Build configuration list for PBXNativeTarget "HQQTextView" */;
+			buildPhases = (
+				2650B83B12AD56FFB528E1FA9164C7A2 /* Sources */,
+				5004F3441ABA524E6846C65368892F3E /* Frameworks */,
+				900BF7C3841C297D9981A6646A040F0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQQTextView;
+			productName = HQQTextView;
+			productReference = E2343E6BFF1F7015E64AB7AC3747A121 /* HQQTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6EEC9397B127A948ADBA7140E494DE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4D05B563399F04041B5DF398D09005 /* HQQTextView */,
+				E896DA0A8E86E08E847D5CDECDA1B945 /* Pods-HQQTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2650B83B12AD56FFB528E1FA9164C7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0421B6A4EBBFBE7D67CC47CD738628 /* HQQTextView-dummy.m in Sources */,
+				473882B7660F500A62E6E4F5FA45D603 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E170E3EC9A6323C667A437155A01BF7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EA86947E70371E3EC05B99226D7E97 /* Pods-HQQTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37A3979E8499F5F602072A58A06364D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HQQTextView;
+			target = FF4D05B563399F04041B5DF398D09005 /* HQQTextView */;
+			targetProxy = FA6D45C46D735C8ED533E42BD1B0F10C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6DCE52AF3C6EF76347D511A41EF874CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D285CC842D74538D95570A898A8CCBC2 /* HQQTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQTextView/HQQTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQTextView/HQQTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HQQTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5299B5C90F0B107A23146CEC2A16741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D285CC842D74538D95570A898A8CCBC2 /* HQQTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQTextView/HQQTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQTextView/HQQTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HQQTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C689D564AC68A66B7377B2A02008ECC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0601BA025025EAE17A5E30CB3A257A0 /* Pods-HQQTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQTextView_Tests/Pods-HQQTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F008D9236284C9CAAECED5908025357E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C285B800B8E185C8AA14625304C74D75 /* Pods-HQQTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQTextView_Tests/Pods-HQQTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FBBCCD8F94FCABB9A7F3F530E8F9AD9 /* Build configuration list for PBXNativeTarget "HQQTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5299B5C90F0B107A23146CEC2A16741 /* Debug */,
+				6DCE52AF3C6EF76347D511A41EF874CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10879B555B46890C7095D35B7E4BF164 /* Build configuration list for PBXNativeTarget "Pods-HQQTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F008D9236284C9CAAECED5908025357E /* Debug */,
+				C689D564AC68A66B7377B2A02008ECC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

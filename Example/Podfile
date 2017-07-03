@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HQQTextView_Tests' do
+  pod 'HQQTextView', :path => '../'
+  
+  
+end
